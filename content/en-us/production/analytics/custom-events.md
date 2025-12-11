@@ -74,7 +74,7 @@ You can breakdown by custom fields by using the breakdown selector.
 
 You should use custom fields whenever possible instead of event names, since there is a much tighter cardinality limit on event names than custom fields. Using custom fields also allows you to see visualizations of events across field values.
 
-For example, instead of `PlantCabbage`, `PlantTurnip`, `PlantPepper` as three separate events, you could have a single event with the name `PlantSeed` and custom field values `Plant - Cabbage`, `Plant - Turnip`, and `Plant - Pepper`. This way you can visualize both the total number of seeds planted as well as compare each plant in the same visualization. This also reduces your event name cardinality.
+For example, instead of `PlantCabbage`, `PlantTurnip`, `PlantPepper` as three separate events, you could have a single event with the name `PlantSeed` and custom field values `Plant - Carrot`, `Plant - Turnip`, and `Plant - Pepper`. This way you can visualize both the total number of seeds planted as well as compare each plant in the same visualization. This also reduces your event name cardinality.
 
 For more information, see [Custom fields](./custom-fields.md).
 
